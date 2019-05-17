@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    tools:context="com.example.gopal.paytmclone.fragment.HomePageViewPager1Fragment">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_shape"
+            android:scaleType="center"
+            android:src="@drawable/ic_bank" />
+
+        <TextView
+            style="@style/view_pager_text_view_style"
+            android:text="@string/add_money" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_shape"
+            android:scaleType="center"
+            android:src="@drawable/ic_home" />
+
+        <TextView
+
+            style="@style/view_pager_text_view_style"
+            android:text="@string/accept_payment" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_shape"
+            android:scaleType="center"
+            android:src="@drawable/ic_mall" />
+
+        <TextView
+            style="@style/view_pager_text_view_style"
+
+            android:text="@string/payment" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_shape"
+            android:scaleType="center"
+            android:src="@drawable/ic_scan" />
+
+        <TextView
+            style="@style/view_pager_text_view_style"
+            android:text="@string/nearby_kyc_points" />
+    </LinearLayout>
+
+
+</LinearLayout>

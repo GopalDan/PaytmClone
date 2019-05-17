@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_paytm_first"
+            android:title="@string/paytm_first"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/nav_my_order"
+            android:title="My Orders"
+            android:icon="@drawable/ic_scan"/>
+        <item
+            android:id="@+id/nav_my_passbook"
+            android:title="My Passbook"
+            android:icon="@drawable/ic_mall"/>
+        <item
+            android:id="@+id/nav_payment_reminder"
+            android:title="Payment Reminders"
+            android:icon="@drawable/ic_inbox"/>
+        <item
+            android:id="@+id/nav_favourite_stores"
+            android:title="My Favourite Stores"
+            android:icon="@drawable/ic_home"/>
+        <item
+            android:id="@+id/nav_loyalty_cards"
+            android:title="My Loyalty Cards"
+            android:icon="@drawable/ic_inbox"/>
+    </group>
+    <group android:id="@+id/group_menu"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_item_four"
+            android:title="Item 4" />
+        <item android:id="@+id/nav_item_five"
+            android:title="Item 5" />
+    </group>
+    <item android:title="Title 1">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item android:id="@+id/nav_item_six"
+                android:icon="@drawable/ic_home"
+                android:title="Item 6" />
+            <item android:id="@+id/nav_item_seven"
+                android:icon="@drawable/ic_scan"
+                android:title="Item 7" />
+            </group>
+        </menu>
+    </item>
+</menu>

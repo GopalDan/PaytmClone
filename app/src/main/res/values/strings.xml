@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Paytm Clone</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="paytm_first">Paytm First. Say hello to the good life</string>
+    <string name="india_s_most_sincere_bank">India\'s most sincere bank</string>
+    <string name="login_to_your_paytm_payments_bank_savings_account">Login to your Paytm Payments Bank Savings Account</string>
+    <string name="registered_mobile_number">Registered Mobile Number</string>
+    <string name="enter_passcode">Enter passcode</string>
+    <string name="forgot_passcode">Forgot Passcode?</string>
+    <string name="favourite_stores">Favourite stores</string>
+    <string name="_25_cashback_code_grab_25_recharge_now"><![CDATA[25 Cashback. Code: GRAB 25. Recharge Now! >]]></string>
+    <string name="pay">Pay</string>
+    <string name="upi_money_transfer">UPI Money Transfer</string>
+    <string name="passbook">Passbook</string>
+    <string name="add_money">Add Money</string>
+    <string name="accept_payment">Accept Payment</string>
+    <string name="payment">Payment</string>
+    <string name="nearby_kyc_points">Nearby KYC Points</string>
+    <string name="upi">UPI</string>
+    <string name="inbox_zone">Inbox Zone</string>
+    <string name="loyalty_crads">Loyalty Crads</string>
+    <string name="top_shopping_offers">Top Shopping Offers</string>
+    <string name="mall_viewpager_page_1">Mall Viewpager Page 1</string>
+    <string name="mall_viewpager_page_2">Mall Viewpager Page 2</string>
+    <string name="mall_viewpager_page_3">Mall Viewpager Page 3</string>
+    <string name="orders">Orders</string>
+    <string name="passbook_1">passbook</string>
+    <string name="reminders">Reminders</string>
+    <string name="paytm_first_1">Paytm First</string>
+    <string name="scan_zone">Scan Zone</string>
+    <string name="rahul_kumar">Rahul Kumar</string>
+    <string name="phone">8798754326</string>
+</resources>
